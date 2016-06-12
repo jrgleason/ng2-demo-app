@@ -1,0 +1,10 @@
+md-card(
+  *ngIf="hero"
+)
+  md-toolbar(color="primary") {{hero.name}}
+  md-card-content
+    div
+        span
+            label id:&nbsp;
+        span {{hero.id}}
+    md-input(placeholder="Name", [(ngModel)]="hero.name")

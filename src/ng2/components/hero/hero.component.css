@@ -1,0 +1,10 @@
+.selected.md-list-avatar{
+    background-color: #0bcb9a;
+}
+.selected.md-list-avatar:hover{
+    background-color: grey;
+}
+.md-list-avatar:hover {
+    color: #607D8B;
+    background-color: lightpink;
+}
