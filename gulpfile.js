@@ -8,8 +8,8 @@ var gulp = require('gulp'),
     debug          = require('gulp-debug'),
     install        = require('gulp-install'),
     concat         = require('gulp-concat'),
-    jade           = require('gulp-jade'),
-    flatten        = require('gulp-flatten')
+    jade           = require('gulp-pug'),
+    flatten        = require('gulp-flatten'),
     embedTemplates = require('gulp-angular-embed-templates');
 
 gulp.task('default', function(pipe){
