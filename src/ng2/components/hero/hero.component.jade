@@ -1,18 +1,18 @@
-.all.layout-column
-  h2 My Heros
+.jg-hero.tall.all.layout-column
   .hero-main-area.layout
     .show-heros
-      md-list
-        md-list-item.heros(
-          *ngFor="let hero of heroes",
-          (click)="onSelect(hero)"
-        )
-          // .md-avatar
-          //  span.badge {{hero.id}}
-          .md-list-avatar(md-list-avatar, md-mini-fab, [class.selected]="hero === selectedHero")
-            md-icon.md-avatar-icon home
-          .md-list-item-text(md-line)
-            span {{hero.name}}
+      .hero-list-area
+        md-list
+          md-list-item.heros(
+            *ngFor="let hero of heroes",
+            (click)="onSelect(hero)"
+          )
+            // .md-avatar
+            //  span.badge {{hero.id}}
+            .md-list-avatar(md-list-avatar, md-mini-fab, [class.selected]="hero === selectedHero")
+              md-icon.md-avatar-icon home
+            .md-list-item-text(md-line)
+              span {{hero.name}}
     .edit-hero.flex-grow
       my-hero-detail(
         [hero]="selectedHero"
