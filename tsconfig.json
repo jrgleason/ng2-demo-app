@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "system",
+    "module": "commonjs",
     "rootDir": "src/ng2",
     "moduleResolution": "node",
-    "sourceMap": false,
+    "sourceMap": true,
     "inlineSources": true,
     "inlineSourceMap": true,
     "emitDecoratorMetadata": true,

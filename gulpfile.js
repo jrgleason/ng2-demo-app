@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     install        = require('gulp-install'),
     concat         = require('gulp-concat'),
     jade           = require('gulp-jade'),
-    flatten        = require('gulp-flatten')
+    flatten        = require('gulp-flatten'),
     embedTemplates = require('gulp-angular-embed-templates');
 
 gulp.task('default', function(pipe){
