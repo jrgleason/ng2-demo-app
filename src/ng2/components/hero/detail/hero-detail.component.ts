@@ -16,4 +16,5 @@ import {MdIconRegistry} from "@angular2-material/icon/icon-registry";
 export class HeroDetailComponent {
   @Input()  
   hero: Hero;
+  constructor() {}
 }
