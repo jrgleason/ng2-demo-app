@@ -12,3 +12,4 @@ bower_components
 deps.js
 hero-dependencies.css
 *.component.html
+typings
