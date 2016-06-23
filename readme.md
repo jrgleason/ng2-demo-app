@@ -22,6 +22,9 @@ still includes the original as well.
 ## Install
 ```bash
 git clone https://github.com/jrgleason/angular2-express-slim
+AS ROOT
+npm install -g typings gulp-cli
+END ROOT
 cd angular2-express-slim
 
 # Install dependencies
