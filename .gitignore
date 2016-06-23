@@ -15,3 +15,5 @@ hero-dependencies.css
 typings
 navbar.component.css
 public/fonts/**/*.*
+jg-site.js
+.typingsrc

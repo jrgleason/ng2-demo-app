@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "system",
     "rootDir": "src/ng2",
     "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true,
+    "inlineSourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "outDir": "public/ng2",
+    "outFile": "jg-site.js",
     "noImplicitAny": false
   },
   "exclude": [

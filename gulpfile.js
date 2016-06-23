@@ -59,7 +59,7 @@ gulp.task('js:build', function () {
     .pipe(sourcemaps.init())
     .pipe(ts(tsProject))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest("public/ng2"));
+    .pipe(gulp.dest("public"));
     // .pipe(inlineNg2Styles({base: '/src/ng2'}));
 });
 gulp.task('css:build', function(){
@@ -73,13 +73,13 @@ gulp.task('clean', function () {
   return gulp.src(['public/ng2', 'public/deps', 'bower_components'], {read: false})
     .pipe(clean());
 });
-gulp.task('clean:super', ['clean', 'clean:dependencies'])
+gulp.task('clean:super', ['clean', 'clean:dependencies']);
 
 
 gulp.task('clean:dependencies', function(){
   return gulp.src(['node_modules', 'bower_components'])
     .pipe(clean());
-})
+});
 gulp.task('dependencies:build:fonts', function () {
   return gulp.src(mainBowerFiles(["**/*.eot", "**/*.woff", "**/*.woff2", "**/*.ttf", "**/*.svg"]))
     .pipe(flatten())

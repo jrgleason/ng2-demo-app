@@ -7,19 +7,7 @@ html
     link(rel="stylesheet", href="stylesheets/style.css")
 
     script(src="deps.js")
-    script(src="javascripts/systemjs.config.js")
-    script
-      | System.config({
-      |   defaultJSExtensions: true,
-      |   packages: {
-      |     app: {
-      |       format: 'register',
-      |       defaultExtension: 'js'
-      |     }
-      |   }
-      | });
-      | System.import('ng2/main')
-      |       .then(null, console.error.bind(console));
+    script(src="jg-site.js")
     link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet")
   body
     jg-navbar([iconSize]="20px")
