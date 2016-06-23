@@ -14,3 +14,4 @@ hero-dependencies.css
 *.component.html
 typings
 navbar.component.css
+public/fonts/**/*.*
