@@ -60,6 +60,13 @@ gulp.task('js:build', function () {
     .pipe(gulp.dest("public"));
     // .pipe(inlineNg2Styles({base: '/src/ng2'}));
 });
+gulp.task('js:material:build', function () {
+  var tsProject = ts.createProject('tsconfig-angular-material.json');
+  return tsProject.src() // also can use *.js files
+    .pipe(ts(tsProject))
+    .pipe(gulp.dest("public"));
+});
+
 gulp.task('css:build', function(){
    return gulp.src(['src/ng2/**/*.css', 'src/ng2/**/*.styl'])
               .pipe(debug())

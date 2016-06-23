@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "outFile": "angular-material.js",
+    "noImplicitAny": false
+  },
+  "files":[
+    "node_modules/@angular2-material/icon/icon-registry.d.ts",
+    "node_modules/@angular2-material/card/card.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "src",
+    "typings/main.d.ts"
+  ]
+}

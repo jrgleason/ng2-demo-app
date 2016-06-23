@@ -1,3 +1,5 @@
+/// <reference path="../../typings/index.d.ts" />
+
 import {bootstrap}     from '@angular/platform-browser-dynamic';
 import {HeroComponent} from './components/hero/hero.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
