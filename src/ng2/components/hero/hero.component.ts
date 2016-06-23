@@ -15,7 +15,10 @@ import {MdToolbar} from "@angular2-material/toolbar/toolbar";
     selector: 'hero',
     templateUrl: 'hero.component.html',
     styleUrls: [ApplicationConstants.BASE_TEMPLATE_PATH + 'components/hero/hero.component.css'],
-    directives: [HeroDetailComponent, MD_CARD_DIRECTIVES, MD_BUTTON_DIRECTIVES, MD_LIST_DIRECTIVES, MD_ICON_DIRECTIVES, MdToolbar, MD_INPUT_DIRECTIVES],
+    directives: [
+        HeroDetailComponent, MD_CARD_DIRECTIVES, MD_BUTTON_DIRECTIVES, MD_LIST_DIRECTIVES,
+        MD_ICON_DIRECTIVES, MdToolbar, MD_INPUT_DIRECTIVES
+    ],
     providers: [HeroService],
     viewProviders: [MdIconRegistry]
 })

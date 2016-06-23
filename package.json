@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "typings install && gulp && tsc && node ./bin/www"
+    "start": "typings install && gulp && node ./bin/www"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
@@ -45,10 +45,13 @@
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
     "gulp-debug": "^2.1.2",
+    "gulp-ext-replace": "^0.3.0",
     "gulp-flatten": "^0.2.0",
+    "gulp-inline-ng2-styles": "0.0.1",
     "gulp-install": "^0.6.0",
     "gulp-jade": "^1.1.0",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.5.0",
     "gulp-typescript": "^2.13.4",
     "gulp-typings": "^2.0.0",
     "main-bower-files": "^2.13.1",

@@ -1,5 +1,6 @@
 body {
-  padding: 50px;
+  padding: 0px;
+  margin:0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -15,4 +16,21 @@ md-list md-list-item [md-list-avatar], md-list a[md-list-item] [md-list-avatar],
   left: 0;
   height:100%;
   width: 100%;
+}
+jg-navbar{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  z-index: 5000;
+}
+hero{
+  background-image: url("//67.media.tumblr.com/baac42a10baac79b64fbb6744d8c2daf/tumblr_o8vbi5lTZA1qe0520o1_1280.png");
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top:0;
+  left: 0;
+  overflow:hidden;
 }

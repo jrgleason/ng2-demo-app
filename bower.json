@@ -15,7 +15,6 @@
     "Reflect": "./node_modules/reflect-metadata/Reflect.js",
     "angular-material": "^1.0.9",
     "components-font-awesome":"*"
-
   },
   "overrides": {
     "angular-material": {

@@ -13,3 +13,4 @@ deps.js
 hero-dependencies.css
 *.component.html
 typings
+navbar.component.css
