@@ -8,6 +8,9 @@ html
 
     script(src="deps.js")
     script(src="jg-site.js")
+    script(src="javascripts/systemjs.config.js")
+    script
+      | System.import('jg-site.js').then(null, console.error.bind(console));
     link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet")
   body
     jg-navbar([iconSize]="20px")

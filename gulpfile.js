@@ -56,9 +56,7 @@ gulp.task('js:build', function () {
   var tsProject = ts.createProject('tsconfig.json');
   return tsProject.src() // also can use *.js files
     .pipe(embedTemplates({sourceType: 'ts'}))
-    .pipe(sourcemaps.init())
     .pipe(ts(tsProject))
-    .pipe(sourcemaps.write())
     .pipe(gulp.dest("public"));
     // .pipe(inlineNg2Styles({base: '/src/ng2'}));
 });
